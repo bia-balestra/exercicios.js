@@ -80,50 +80,55 @@
  
 
 
-let order = {
-    name: 'Rafael Andrade',
-    phoneNumber: '11-98763-1416',
-    address: {
-      street: 'Rua das Flores',
-      number: '389',
-      apartment: '701',
-    },
-    order:{
-        pizza:{
-            marguerita: {
-                amount: 1,
-                price: 25,
-            },
-            peperoni:{
-                amount:1,
-                price:20,
-            }
-        },
-        drinks:{
-            coke:{
-                type:'Coca-Cola Zero',
-                price: 10,
-                amount: 1,
-            }
-        },
-        delivery:{
-            deliveryPerson: 'Ana Silveira',
-            price: 5,
-        },
-        payment:{
-            total:60
-        }
-    }
-}
-
-function custumerInfo(order) {
-}
-
-custumerInfo(order)
+// let order = {
+//     name: 'Rafael Andrade',
+//     phoneNumber: '11-98763-1416',
+//     address: {
+//       street: 'Rua das Flores',
+//       number: '389',
+//       apartment: '701',
+//     },
+//     order:{
+//         pizza:{
+//             marguerita: {
+//                 amount: 1,
+//                 price: 25,
+//             },
+//             peperoni:{
+//                 amount:1,
+//                 price:20,
+//             }
+//         },
+//         drinks:{
+//             coke:{
+//                 type:'Coca-Cola Zero',
+//                 price: 10,
+//                 amount: 1,
+//             }
+//         },
+//         delivery:{
+//             deliveryPerson: 'Ana Silveira',
+//             price: 5,
+//         },
+//         payment:{
+//             total:60
+//         }
+//     }
+// }
 
 
-function order(order) {
-    
-}
+// function custumerInfo(funcionario, cliente, telefone, rua, numero, apartamento)  {
+//  console.log(
+//     ` olá, ${funcionario}
+//     entrega para: ${cliente},
+//     telefone: ${telefone},
+//     rua: ${rua},
+//     numero do prédio: ${numero}
+//     número do apartamento: ${apartamento}
+//     `
+//  )
+// }
+
+// custumerInfo(order.order.delivery.deliveryPerson, order.name, order.phoneNumber, order.address.street, order.address.number, order.address.apartment);
 
 
