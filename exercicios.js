@@ -131,4 +131,77 @@
 
 // custumerInfo(order.order.delivery.deliveryPerson, order.name, order.phoneNumber, order.address.street, order.address.number, order.address.apartment);
 
+// function orderModifier(cliente, pizzas, bebidas, valor) {
+//    console.log( `
+//      Olá, ${cliente}, o valor do seu pedido de ${pizzas} e ${bebidas} é ${valor} reais
+//     `)
+// }
+
+// orderModifier(order.name, Object.keys(order.order.pizza), order.order.drinks.coke.type ,order.order.payment.total);
+
+// Executando esse código, recebe-se um erro `TypeError: Assignment to constant variable.`
+
+// let pessoa = {
+//     nome: 'Henri',
+//     idade: 20
+//   }
+//   pessoa = {
+//     nome: 'Luna',
+//     idade: 19
+//   } // Altere essa estrutura para corrigir o erro.
+//   console.log('Nome:', pessoa.nome);
+//   console.log('Idade:', pessoa.idade);
+
+
+// const name = 'Adriana';
+//   const lastName = 'Soares';
+//   console.log(`Olá, ${name} ${lastName}`);
+//   function soma(a,b) {
+//     let resultado = a + b;
+//     return resultado;
+//   }
+//   let a = 3;
+//   let b = 5;
+//   console.log(`O resultado da soma ${a} + ${b} é = ${soma(a,b)}`);
+
+
+
+// function imprimeIdade() {
+//     for (let idade = 30; idade <= 40; idade += 1) {
+//       console.log('Idade dentro do for:', idade)
+//     }
+//   }
+//   imprimeIdade()
+
+
+
+// let favoriteFood = 'Lasanha';
+//   favoriteFood = 'Hambúrguer';
+//   console.log(favoriteFood);
+
+
+
+//const numeroAleatorio = () => Math.random()
+//console.log(numeroAleatorio())
+
+
+
+// let hello = (nome) =>`Olá, ${nome}!`
+//   let nome = 'Ivan';
+//   console.log(hello(nome));
+
+
+
+// let nomeCompleto = (nome, sobrenome) => `${nome} ${sobrenome}`
+     
+//   let nome = 'Ivan';
+//   let sobrenome = 'Pires';
+//   console.log(nomeCompleto(nome, sobrenome));
+
+
+
+// let speed = 90;
+// let speedCar = (speed >= 120) ? "Você ultrapassou o limite de velocidade" : "Você está na velocidade permitida";
+// console.log(speedCar);
+
 
