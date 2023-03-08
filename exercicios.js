@@ -205,3 +205,98 @@
 // console.log(speedCar);
 
 
+
+// const frase = 'Isso é uma frase curta';
+// console.log(frase.split(' '));
+
+
+
+
+// function areaCirculo(r) {
+//  return(3.14*r*r)  
+// }
+// console.log(areaCirculo(2))
+
+// function maiorPalavra(frase) {
+//     let arrayStr = string.split(" ");
+//     let maior = 0;
+//     let palavra = null;
+//     arrayStr.forEach(function(str) { 
+//         if (maior < str.length) {
+//             maior = str.length;
+//             palavra = str;
+//         }
+//     });
+//     return palavra;
+// }
+// console.log(maiorPalavra("bom dia a todos"));
+
+
+// let arrayNumeros = [1,2,3,4,5,6];
+// function verificaPares(elemento){
+//     if (elemento % 2 == 0) 
+//     console.log(elemento);
+// }
+// arrayNumeros.forEach(verificaPares);
+
+
+// function maiorPalavra(frase) {
+//     let array = frase.split(" ");
+//     let maior = 0;
+//     let palavra = undefined; 
+//     array.forEach(function(string) {
+//         if (maior < string.length) {
+//             maior = string.length;
+//             palavra = string;
+//         }
+//     }); 
+// //*Não entendi bem o que aconteceu*
+//     return palavra;
+// }
+// console.log(maiorPalavra('Antônio foi ao banheiro e não sabemos o que aconteceu'));
+
+// let carroLigado = false
+// function liga (){
+//     carroLigado = true
+// }
+// function desliga (){
+//     carroLigado = false
+// }
+// console.log(carroLigado);
+// liga()
+// console.log(carroLigado);
+// desliga()
+
+// function substituax (x) {
+//     return(`Tryber ${x} aqui!`)
+// }
+// console.log(substituax("Thamires"))
+
+// function substituax(nome) {
+//     const frasePadrao = 'Tryber x aqui!'  
+//     return frasePadrao.replace('x', nome);  
+// }
+// // console.log(substituax('Pedro'));
+
+// function minhasSkills(frase) {
+//     const skill = [
+//         'javascript','css', 'html'
+//     ]
+//   let fraseSkills = `Minhas três principais habilidades são: ${skill}`
+//   return `${frase}\n${fraseSkills}`
+// }
+
+// console.log(minhasSkills(substituax('Thiago')));
+
+
+
+
+
+
+
+ 
+
+
+
+
+
